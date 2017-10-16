@@ -1,0 +1,19 @@
+body
+{
+background-color:silver;
+
+}
+table {
+background-color:white;
+border: 1px solid gray;
+}
+
+a{
+	color: darkblue;
+}
+
+
+a:hover
+ {
+color:rgb(250,192,1);
+}
