@@ -1,0 +1,49 @@
+<! doctype html>
+
+<head>
+    <link rel="stylesheet" href="cssform.css">
+   <script type="text/javascript" src="formulaire.js"></script>
+    <title> formulaire </title>
+</head>
+<body>
+<table  >
+ <forme class = "form-style " >
+    <tr>
+    <td>Nom: </td>
+   <td> <input classe="tab" type="text" name="nom" id="nom" minlength="5" maxlength="20"/></td>  <br> 
+    </tr>
+   
+    <tr> 
+    <td>Prénom:  </td>  
+    <td><input classe="tab" type="text" name="prenom" id="prenom" minlength="5" maxlength="20"/></td> <br>
+    </tr>
+    <tr> 
+      <td> Date de naissance:</td>
+      <td> <input classe="tab" type="Date" name="Date" /></td> <br>
+    </tr> 
+    <tr> 
+     <td>Adresse mail:</td>
+     <td> <input classe="tab" type="email" name="email"  minlength="5" maxlength="30" /></td> <br>
+    </tr> 
+    <tr> 
+    <td>Adresse Postal :</td>
+    <td><input classe="tab" type="text" name="adresse"  minlength="5" maxlength="50" /></td> <br>
+    </tr> 
+    <tr>
+ 
+    <td> <input classe="bouton" type="button" value="valider" onclick="error()"/></td><br>
+   
+</tr>
+
+</forme>
+
+</table>
+<div classe "err" id="error">
+     
+    </div>
+
+    <div  id="resultat">
+            
+        </div>
+
+</body>
